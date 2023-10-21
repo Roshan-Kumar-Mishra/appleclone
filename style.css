@@ -16,6 +16,7 @@
 .nav-ions>h2{
     vertical-align: middle;
     padding-top: 1.9%;
+    color: white;
     /* width: 100%; */
 }
 .navbar{
@@ -29,6 +30,8 @@
 }
 .fa-solid{
     margin: 30px;
+    color:antiquewhite;
+    /* border: 2px solid red; */
 }
 .Accessories{
     display:flex;
@@ -128,7 +131,6 @@
 
 }
 .image-3{
-    border: 1px solid red;
     height: 100%;
 }
 .image-3>img{
@@ -167,7 +169,6 @@
 .third-part{
     display: flex;
     justify-content: space-around;
-    border: 2px solid blue;
     height: 100%;
     /* width: 100%; */
 }
@@ -220,6 +221,145 @@
     border-radius: 30px;
     margin-left:10vw;
 }
-
-
+.fifth-part>h1{
+    text-align: center;
+    padding: 50px;
+    
+}
+#new{
+    color: red;
+}
+.iphone-1>p{
+    color: black;
+}
+.iphone-1{
+    text-align:center;
+}
+.iphone-1>button{
+    width: 60px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: 
+    rgba(0, 113, 227, 1);
+    text-decoration: none;
+    
+}
+#learn{
+    color:rgba(0, 113, 227, 1);
+}
+#para{
+    padding-bottom: 20px;
+}
+.iPhones{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sixth-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: 2vw;
+    padding-top: 30px;
+}
+.para-1>p,h2{
+    color: black;
+    text-align: center;
+}
+.para-2{
+    text-align: center;
+}
+.para-2>p{
+    color: black;
+}
+.seventh-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 1.5vw;
+    gap: 100px;
+    
+}
+.sos>p{
+    color:black;
+}
+.sos{
+    text-align: center;
+}
+.eight-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 1.5vw;
+    gap: 100px;
+    padding-top: 30px;
+}
+.camera{
+    text-align: center;
+}
+.camera>p{
+    color: black;
+}
+.nine-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 1.5vw;
+    gap: 100px;
+    padding-top: 30px;
+}
+.battery{
+    text-align: center;
+}
+.battery>p{
+    color: black;
+}
+.tenth-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 1.5vw;
+    gap: 100px;
+    padding-top: 30px;
+}
+.chip>p{
+    color:black;
+}
+.chip{
+    text-align: center;
+}
+.eleven-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 1.5vw;
+    gap: 100px;
+    padding-top: 30px;
+}
+.face-id{
+    text-align: center;
+}
+.face-id>p{
+    color:black;
+}
+.tweleve-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 1.5vw;
+    gap: 100px;
+    padding-top: 30px;
+}
+.network{
+    text-align: center;
+}
+.network>p{
+    color: black;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   font-size: large;
+   padding-bottom: 50px;
+}
+.last>p{
+    color: rgba(0, 102, 204, 1);
+    padding: 60px;
+}
 
