@@ -4,92 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="navbar">
         <nav>
-            <div class="apple-logo">
-                <img src="data:image/png;base64,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" width="30px" height="30px">
-            </div>
             <div class="nav-ions">
-                <h6>Store</h6>
-                <h6>Mac</h6>
-                <h6>iPad</h6>
-                <h6>iPhone</h6>
-                <h6>Watch</h6>
-                <h6>Airbods</h6>
-                <h6>Tv & Homes</h6>
-                <h6>Only on Apple</h6>
-                <h6>Accessories</h6>
-                <h6>Support</h6>
-            </div>
-            <div class="search-logo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbmjfCFuXAAfSEBw--ptriHeskpZ1pKj04uA&usqp=CAU" alt="search bar" width="20px" height="20px">
-            </div>
-            <div class="bag-logo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLSrz_kLTd667GwvqPyZ6Ikw0infR5lpUMzA&usqp=CAU" alt="bag logo" width="20px" height="20px">
+                <i class="fa-brands fa-apple fa-xl" style="color: #e5dbff;"></i>
+                <h2>Store</h2>
+                <h2>Mac</h2>
+                <h2>iPad</h2>
+                <h2>iPhone</h2>
+                <h2>Watch</h2>
+                <h2>Airbods</h2>
+                <h2>Tv & Homes</h2>
+                <h2>Only on Apple</h2>
+                <h2>Accessories</h2>
+                <h2>Support</h2>
+                <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
             </div>
         </nav>
+    </div>
         <div class="collection-of-items">
-            <div class=""> 
+          <div class="Accessories">
+            <div class="item"> 
                 <img src="./figure.svg">
+                <p>Iphone 14 pro</p>
             </div>
-            <div>
+            <div class="item item-1">
                 <img src="./figure.svg">
+                <p>Iphone 14</p>
             </div>
-            <div>
+            <div class="item item-1">
                 <img src="./figure.svg">
+                <p>Iphone SE</p>
             </div>
-            <div>
+            <div class="item">
                 <img src="./figure (1).svg">
+                <p>Iphone 12</p>
             </div>
-            <div class>
+            <div class="item">
                 <img src="./iphone_12_light__cxh2ll1zwpw2_large.svg.svg">
+                <p>compare</p>
             </div>
-            <div>
+            <div class="item">
                 <img src="./iphone_compare_light__f4jj7brpbvm2_large.svg.svg">
+                <p>Air buds</p>
             </div>
-            <div class="">
+            <div class="item">
                 <img src="./airpods_light__8oj157p2476a_large.svg.svg">
+                <p>Air Tags</p>
             </div>
-            <div>
+            <div class="item">
                 <img src="./figure (2).svg">
+                <p>Accessories</p>
             </div>
             
-            <div>
+            <div class="item">
                 <img src="./iphone_ios_light__b8s4ws8o77iq_large.svg.svg">
+                <p>Apple card</p>
             </div>
-           <div>
+           <div class="item">
             <img src="./accessories_light__ed5l6ipsevqu_large.svg.svg">
+            <p>iOS</p>
            </div>
-           <div>
+           <div class="item">
             <img src="./Group.svg">
+            <p>Iphone 14 pro</p>
            </div>
-           <div>
+           <div class="item">
             <img src="./shop_iphone_light__b2toggskllle_large.svg.svg">
+            <p>Shop iphone</p>
            </div>
         </div>
-    </div>
-    <div class="">
-        <h4>New</h4>
-    </div>
-    <div>
-        <h3>iPhone 14</h3>
-    </div>
-    <div class="">
-        <img src="./Big and bigger..svg">
-    </div>
-    <div class="">
+        </div>
+    <div class="new">
+        <p>New</p>
+        <h2>iPhone 14</h2>
+        <img src="./Big and bigger..svg" class="image">
         <p>From $33.29/mo. for 24 hours or $799 before trade-in 1 </p>
     </div>
-    <div>
+    <div class="but-1">
         <button>Buy Now</button>
-    </div>
-    <div>
         <p>Learn More</p>
     </div>
-    <div>
+    <div class="image">
         <img src="./figure (3).svg">
+    </div>
+    <div class="iphone-14-pro">
+        <div class="about-14-pro">
+            <h3>New</h3>
+            <h2>iphone 14 pro</h2>
+            <h1>Pro.Beyond</h1>
+            <p>From $33.29/mo. for 24 hours or $799 before trade-in 1</p>
+        </div>
+        <div class="but-2">
+            <button>Buy Now</button>
+            <p>Learn More</p>
+        </div>
+        <div class="image-2">
+            <img src="./figure (4).svg" >
+        </div>
+    </div>
+    <div class="third-part">
+        <span class="about-img-3">
+            <h5>iPhone SE</h5>
+            <h1>Love the Power</h1>
+            <h1>Love the Price</h1>
+            <p>From $33.29/mo. for 24 hours or $799 before trade-in 1</p>
+            <div class="but-3">
+                <button>Buy Now</button>
+                <p>Learn More</p>
+            </div>
+        </span>
+        
+        <div class="image-3">
+            <img src="./figure (5).svg">
+        </div>
+    </div>
+    <div class="fourth-part">
+        <h4>A Guide Tour</h4>
+        <h1>iPhone 14 &</h1>
+        <h1>iPhone 14 pro</h1>
+        <button>watch the film</button>
     </div>
     </body>
 </body>

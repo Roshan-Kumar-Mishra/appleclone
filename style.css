@@ -1,0 +1,225 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-ions{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    vertical-align: middle;
+}
+.nav-ions>h2{
+    vertical-align: middle;
+    padding-top: 1.9%;
+    /* width: 100%; */
+}
+.navbar{
+    /* width: 100%; */
+    background-color: rgb(55, 53, 53);
+}
+.fa-brands{
+    margin-top: 30px;
+    padding-top: 0.5%;
+    padding-right: 1%;
+}
+.fa-solid{
+    margin: 30px;
+}
+.Accessories{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+.item>p{
+    text-align: center;
+    color: black;
+}
+.item{
+    text-align: center;
+}
+.new{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+.new>p{
+    font-size: x-large;
+    color: black;
+}
+.but-1{
+    display:flex;
+    flex-direction: coloum;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    width: 16vw;
+    margin: 0 0 0 44vw;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+.but-1>button{
+    border-radius: 25px;
+    text-decoration: none;
+    width: 100px;
+    font-size: large;
+    height: 2.5vw;
+    background-color: rgb(42, 182, 237);
+}
+.but-1>p{
+    font-size: x-large;
+    color:rgb(42, 182, 237);
+    
+}
+.image{
+    text-align: center;
+}
+.iphone-14-pro{
+    text-align: center;
+    padding-top: 8%;
+    background-color: black;
+}
+.but-2{
+    display:flex;
+    flex-direction: coloum;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    width: 16vw;
+    margin: 0 0 0 44vw;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.but-2>button{
+    border-radius: 25px;
+    text-decoration: none;
+    width: 100px;
+    font-size: large;
+    height: 2.5vw;
+    background-color: rgb(42, 182, 237);
+}
+.but-2>p{
+    font-size: x-large;
+    color:rgb(42, 182, 237);
+    
+}
+.about-14-pro>h3,h2,h1,p{
+    padding: 5px;
+}
+.about-14-pro>h2,p{
+    color: rgb(205, 209, 212);
+}
+.about-14-pro>h1{
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+.image-3{
+    border: 1px solid red;
+    height: 100%;
+}
+.image-3>img{
+   width:30vw;
+   height:100%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top:0px;
+   padding-bottom:0px;
+}
+.but-3{
+    display:flex;
+    flex-direction: coloum;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    width: 16vw;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.but-3>button{
+    border-radius: 25px;
+    text-decoration: none;
+    width: 100px;
+    font-size: large;
+    height: 2.5vw;
+    background-color: rgb(42, 182, 237);
+}
+.but-3>p{
+    font-size: x-large;
+    color:rgb(42, 182, 237);
+    
+}
+.third-part{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid blue;
+    height: 100%;
+    /* width: 100%; */
+}
+.about-img-3{
+    padding-top: 15%;
+}
+.about-img-3>h1{
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.fourth-part{
+    width:90vw;
+    height:90vh;
+    margin-left: 5%;
+    background-image: url(figure6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.fourth-part>h1{
+    padding-left: 10vw;
+    color: white;
+}
+.fourth-part>h4{
+  padding-left: 10vw;
+  padding-top: 30vh;
+  color: white;
+}
+.fourth-part>img{
+    margin: 0 0 0 3vw;
+    width: 90%;
+}
+.image-2>img{
+    width: 40%;
+}
+.image>img{
+    width:50%;
+}
+.collection-of-items{
+    /* width:100%; */
+}
+.fourth-part>button{
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left:10vw;
+}
+
+
+
