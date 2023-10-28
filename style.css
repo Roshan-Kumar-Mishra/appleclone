@@ -8,8 +8,7 @@
     display:flex;
     flex-wrap:wrap;
     justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 2vw;
     color: white;
     vertical-align: middle;
 }
@@ -29,7 +28,7 @@
     padding-right: 1%;
 }
 .fa-solid{
-    margin: 30px;
+    margin: 20px;
     color:antiquewhite;
     /* border: 2px solid red; */
 }
@@ -362,4 +361,218 @@
     color: rgba(0, 102, 204, 1);
     padding: 60px;
 }
-
+@media screen and (max-width: 768px){
+    .nav-ions{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fourth-part{
+        width:90%;
+        height:30vh;
+        /* margin-left: 5%; */
+        background-image: url(figure6.svg);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: 100vw;
+    }
+    .fourth-part>h4{
+        padding-left: 10vw;
+        padding-top:0;
+        color: black;
+    }
+    .fourth-part>h4,h1{
+        font-size: 70%;
+    }
+    .fourth-part>button{
+        width: 15%;
+        font-size: 35%;
+        border-radius: 25px;
+        height: 10%;
+    }
+    .tweleve-part,.eleven-part,.tenth-part,.nine-part,.eight-part,.seventh-part,.sixth-part{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .but-1>button,.but-2>button,.but-3>button{
+        width: 25%;
+        height: 40%;
+        font-size: smaller;
+        text-align: center;
+    }
+    .but-1,.but-2,.but-3{
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 20%;
+    }
+    .but-1>p,.but-2>p,.but-3>p{
+        font-size: smaller;
+        padding-left: 50px;
+    }
+}
+.thirteen-part{
+    padding-left: 3.5vw;
+}
+.trade-in{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    justify-content: space-around;
+    text-align:center;
+    margin-top: 30px;
+}
+.forteen-part>h3,h2{
+    text-align: center;
+}
+.forteen-part{
+    /* margin-top: 90px; */
+    margin: 5vw;
+    background-color: rgba(255, 255, 255, 1);
+}
+#ways{
+    padding-top: 40px;
+    text-align: center;
+}
+.trade-in-1{
+    padding: 20px;
+}
+.but-4{
+    text-align: center;
+    margin: 100px;
+}
+.but-4>button{
+    border-radius: 25px;
+    text-decoration: none;
+    width: 150px;
+    font-size: small;
+    height: 2.5vw;
+    background-color: rgb(42, 182, 237);
+    color: white;
+}
+.text{
+    color: black;
+}
+.text-1{
+    color:rgba(0, 102, 204, 1);
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sixteen-part{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: aliceblue;
+    width:50%;
+    padding-top: 40px;
+}
+.sixteen-part-1{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: aliceblue;
+    width: 50%;
+    padding-top: 40px;
+}
+.fifteen-part{
+    display: flex;
+    justify-content: space-around;
+}
+.but-5{
+    text-align: center;
+    margin: 50px;
+}
+.but-5>button{
+   color: rgba(0, 102, 204, 1);
+   text-decoration: none;
+   border: none;
+}
+.seventeen-part{
+    margin-left: 3vw;
+}
+.eighteen-part{
+    display: flex;
+    margin-left: 6vw;
+    padding-top: 40px;
+}
+#Featured{
+    text-align: center;
+}
+.eighteen-part-1>P{
+    color: black;
+}
+.nineteen-part{
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    align-items: center;
+}
+.nineteen-part-2{
+    text-align: center;
+}
+.nineteen-part-1>p{
+    color: black;
+}
+.nineteen-part-2>button{
+    text-decoration: none;
+    border: none;
+    color: rgba(0, 102, 204, 1);
+    justify-content: center;
+}
+.nineteen-part-1{
+    text-align: center;
+}
+.twenty-part{
+    text-align: center;
+}
+.twenty-part>p{
+    padding-top: 30px;
+    color: rgba(0, 102, 204, 1);
+}
+.twenty-one-part{
+    margin: 4vw;
+    background-color: lightgoldenrodyellow;
+}
+#make-iphone{
+    text-align: center;
+    padding-top: 40px;
+}
+.twenty-two-part{
+    /* width: 40vw; */
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    /* margin-left: 30vw; */
+    background-color: lightgoldenrodyellow;
+}
+#more-iphone{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.twenty-three-part{
+    display: flex;
+    justify-content: center;
+    /* width: 50vw; */
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.twenty-three-part-2>p{
+    color: black;
+    font-size: large;
+}
+.twenty-three-part-2>button{
+    color: rgba(0, 102, 204, 1);
+    border: none;
+    text-decoration: none;
+}
+.twenty-four-part{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin-left: 15vw;
+ margin-right: 15vw;
+}
